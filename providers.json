@@ -1,0 +1,21 @@
+{
+    "local": {
+        "provider": "local",
+        "module": "passport-local",
+        "usernameField": "username",
+        "passwordField": "password",
+        "authPath": "/auth/local",
+        "successRedirect": "/auth/account"
+      },
+      "facebook-login": {
+        "provider": "facebook",
+        "module": "passport-facebook",
+        "clientID": "1210197085672235",
+        "clientSecret": "32a34e97c2eabba267a4169514319346",
+        "callbackURL": "http://localhost:3000/auth/facebook/callback",
+        "authPath": "/auth/facebook",
+        "callbackPath": "/auth/facebook/callback",
+        "successRedirect": "/auth/account",
+        "scope": ["email"]
+      }
+}

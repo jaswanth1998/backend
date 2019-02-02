@@ -1,0 +1,90 @@
+{
+  "name": "postjob",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "companyname": {
+      "type": "string",
+      "required": true
+    },
+    "jd": {
+      "type": "string",
+      "required": true
+    },
+    "siklls": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "visaSponsorship": {
+      "type": "string",
+      "required": true
+    },
+    "remoteWork": {
+      "type": "string",
+      "required": true
+    },
+    "startdate": {
+      "type": "string",
+      "required": true
+    },
+    "enddate": {
+      "type": "string",
+      "required": true
+    },
+    "minsalary": {
+      "type": "string",
+      "required": true
+    },
+    "maxsalary": {
+      "type": "string",
+      "required": true
+    },
+    "MinEquity": {
+      "type": "string",
+      "required": true
+    },
+    "MaxEquity": {
+      "type": "string",
+      "required": true
+    },
+    "yearlyBonus": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "Department": {
+      "type": "string",
+      "required": true
+    },
+    "JobOwner": {
+      "type": "string",
+      "required": true
+    },
+    "QUESTIONS": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "post_job_img": {
+      "type": "string",
+      "required": true
+    },
+    "comp_email": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

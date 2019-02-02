@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "sendEmail": {
+    "name": "sendEmail",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "mail.ancons.com",
+        "secure": false,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "gitty@ancons.com",
+          "pass": "G@gitty3"
+        }
+      }
+    ]
+  }
+}
